@@ -1,6 +1,6 @@
 
 
- body{ background-color: #CADF9E; } 
+ body{ background-color: #CAE58B; } 
 
 
 
@@ -11,25 +11,40 @@ h1{
     font-size:45px;
 }
 
-.skills-list {
-    font-size: 20px;
-    
-}
+
 
 .menu {
-    width: auto;
+    text-align: center;
+    padding: 30px 10px;
+    width: 100%;
 }
 
 .menu a {
-    padding: 80px;
-
-    
+    padding: 15px 5px;
+    margin:10px;
+    font-size: 20px;
 }
+
+.button-menu {
+    color:#717147;
+    background-image: url(/images/button.jpeg);
+    background-size: cover;
+    /* background-color: #11a36a; */
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4%;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+
+
 
 
 .description-photo {
     padding: 10px 10px;
-    background-image:url(/images/green-background.jpg);
+    /* background-image:url(/images/green-background.jpg); */
+    background-color: #E0F0BC;
     margin-right: 10px;
     float: left;
     border-style:double;
@@ -55,18 +70,48 @@ h1{
 
 }
 
+.skills {
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.skills-list-1 {
+    display: inline-block;
+
+}
+
+.skills-list-2 {
+    display: inline-block;
+
+}
+
 .hab-1 {
     font-size: 25px;
 }
 
 .hab-3 {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .hab-5 {
-    font-size: 45px;
+    font-size: 25px;
 }
 
 .hab-7 {
-    font-size: 55px;
+    font-size: 25px;
 }
+
+.link-blog {
+
+    font-size: 30px;
+
+}
+
+
+.external-link {
+    padding-left: 70%;
+    
+}
+
