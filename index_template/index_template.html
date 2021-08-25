@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Modelo retirado do site https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tab_header-->
+<style>
+
+
+    /* Início da configuração CSS do menu-head */
+.tablink {
+  background-color: #c4c87e;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: rgb(187, 176, 77);
+}
+
+/* Style the tab content */
+.tabcontent {
+    font-size: 15px;
+  color: white;
+  display: none;
+  padding: 10px;
+  text-align: center;
+}
+
+#main {background-color:#e2de84}
+#portfolio {background-color: #e2de84;}
+#contact {background-color:#e2de84;}
+#about {background-color:#e2de84;}
+
+  /* Fim da configuração CSS do menu-head */
+
+
+ /* Início da configuração CSS do corpo da página*/
+  body {
+    background-color: #d1d49b;
+    font-family: "Lato", sans-serif;}
+
+  h1{
+    text-align: center;
+    color: #45471f;    
+    font-family: 'Luckiest Guy', cursive;
+    font-size:45px;
+}
+
+
+
+
+.description-photo {
+    padding: 10px 10px;
+    /* background-image:url(/images/green-background.jpg); */
+    background-color: #E0F0BC;
+    margin-right: 10px;
+    float: left;
+    border-style:double;
+    border-radius: 10%;
+    
+}
+.description-photo img {
+    border-radius: 10%;
+
+}
+
+.description{
+    
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    padding: 20px 40px;
+    margin-left: 10%;
+    margin-right: 20%;
+    color: #536e49;
+    border-style: double;
+    border-radius: 1%;
+    display: inline-block;
+
+}
+
+.skills {
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20%;
+
+    
+}
+
+.skills-list-1 {
+    display: inline-block;
+
+
+}
+
+.skills-list-2 {
+    display: inline-block;
+    
+
+}
+
+.hab-1 {
+    font-size: 25px;
+}
+
+.hab-3 {
+    font-size: 25px;
+}
+
+.hab-5 {
+    font-size: 25px;
+}
+
+.hab-7 {
+    font-size: 25px;
+}
+
+.link-blog {
+
+    font-size: 20px;
+
+}
+
+
+.external-link {
+    padding-left: 70%;
+    
+}
+
+
+
+
+
+
+
+</style>
+</head>
+
+
+<body>
+
+ <!-- Início do head-menu-->
+<div id="main" class="tabcontent">
+  <h1>Seja bem vindo! </h1>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="portfolio" class="tabcontent">
+  <h1>Paris</h1>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="contact" class="tabcontent">
+  <h1>Tokyo</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="about" class="tabcontent">
+  <h1>Oslo</h1>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+<button class="tablink" onclick="openPage('main', this, '#e2de84')" id="defaultOpen"><strong>Início</strong></button>
+<a href="/index_template/index_template-portfolio.html"><button class="tablink"  ><strong>Portfólio</strong></button></a>
+<a href="/index_template/index_template-contato.html"><button class="tablink" ><strong>Contato</strong></button></a>
+<a href="/index_template/index_template-sobre.html"><button class="tablink"   ><strong>Sobre</strong></button></a>
+<!-- Fim do head-menu -->
+
+
+<!-- Início do conteúdo página -->
+
+
+<body>
+
+
+  <h1  >Lucas Lopes de Moura</h1>
+  
+  
+  
+  <div class="description">
+      
+      <div class="description-photo"> 
+          <img src="/images/lucas.jpeg" width="200" alt="Foto de Lucas Lopes de Moura" >
+          
+      </div>
+  
+      <div class="description-text">
+          <p>Olá, meu nome é Lucas, tenho 26 anos, sou natural do Rio de Janeiro-RJ e atualmente moro em São José dos Campos-SP. Sou Técnico em Eletrônica, recém formado em Engenharia Elétrica e Estudante da <strong>Trybe</strong>!  bla bla apaixonado por <strong>tecnologia</strong> bla bla bla <i>estudante</i> da <i><strong>Trybe</strong></i> </p>
+  
+          <div class="external-link">
+              <a href="https://blog.betrybe.com/" target="_blank" class="link-blog"> Link do blog da Trybe </a>
+          </div> 
+          <hr>
+      </div>
+  
+      <div class="skills">
+          <div class="skills-list-1">
+          <ul>
+          <li class="hab-1">Habilidade 1</li>
+          <li class="hab-2">Habilidade 2</li>
+          <li class="hab-3">Habilidade 3</li>
+          <li class="hab-4">Habilidade 4</li>
+          </ul>
+          </div>
+  
+          <div class="skills-list-2">
+          <ul>
+          <li class="hab-5">Habilidade 5</li>
+          <li class="hab-6">Habilidade 6</li>
+          <li class="hab-7">Habilidade 7</li>
+          <li class="hab-8">Habilidade 8</li>
+          </ul>
+          </div>
+      </div>
+  
+  
+  
+  
+      <!-- <div class="external-link">
+          <a href="https://blog.betrybe.com/" target="_blank" class="link-blog"> Link do blog da Trybe </a>
+          </div> -->
+  
+  </div>
+  
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Início do script de mudança de cor de acordo com o click -->
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
